@@ -1,0 +1,24 @@
+primary-bg-color: #DBDFD0
+secondary-bg-color: #474747
+
+footer-bg: #474747
+footer-para-text-color: #ADB29E
+footer-links-text-color: #DBDFD0
+
+heading-text-color: #2C2F24
+para-text-color: #414536
+tertiary-text-color: #fff
+
+primary-btn-bg: #AD343E
+btn-text-color: #182226
+
+blog-date-text-color: #737865
+
+contact-info-bg: #474747 
+
+menu-icon-bg: #4D592B 
+
+
+Common names for the classes:
+1. contact-info-card
+2. 
