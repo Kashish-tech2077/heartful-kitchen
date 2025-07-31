@@ -113,6 +113,8 @@ body {
     align-items: center;
     padding: 0px 65px;
     color: var(--tertiary-text-color);
+    position: relative;
+    z-index: 8;
 }
 
 .utility-contacts span:first-child {
@@ -188,7 +190,7 @@ body {
     /* background-color: orange; */
     text-align: center;
     max-width: inherit;
-    height: 90vh;
+    height: 100vh;
     position: relative;
     z-index: 500;
 }
@@ -223,7 +225,7 @@ body {
     height: 60vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 120px auto 0px auto;
 }
 
@@ -410,7 +412,7 @@ body {
 .service-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     row-gap: 50px;
 }
