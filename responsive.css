@@ -521,3 +521,66 @@
     }
 
 }
+
+
+/* Big Screen and 4K TV devices responsiveness */
+
+
+@media only screen and (min-width: 2000px) {
+
+    :root {
+        font-size: 18px;
+    }
+
+    .hero-heading>h1 {
+        font-size: 6.5rem;
+    }
+
+    .menu-item {
+        width: 350px;
+        height: 400px;
+    }
+
+    .menu-item-list {
+        column-gap: 5px;
+    }
+
+    .common-btn {
+        width: 190px;
+        height: 70px;
+    }
+
+    .common-navbar {
+        max-width: 70vw;
+    }
+
+    #menu-section {
+        max-width: 70vw;
+    }
+
+    .feature-content {
+        max-width: 70vw;
+    }
+
+    #service-section {
+        max-width: 70vw;
+    }
+
+    .delivery-content {
+        max-width: 70vw;
+    }
+
+    #customer-section {
+        max-width: 70vw;
+    }
+
+    .blog-content {
+        max-width: 70vw;
+    }
+
+    .footer-content {
+        max-width: 70vw;
+
+    }
+
+}
