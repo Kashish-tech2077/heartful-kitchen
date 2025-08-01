@@ -77,7 +77,6 @@
     }
 
     .hero-content {
-        /* background-color: pink; */
         max-width: 95vw;
         margin: 235px auto 0px auto;
     }
@@ -88,7 +87,6 @@
     }
 
     .hero-para p {
-        font-family: var(--para-font);
         font-size: 1.2rem;
         max-width: 85%;
         margin: 4px auto 12px auto;
@@ -107,8 +105,7 @@
     }
 
     .menu-item-list {
-        flex-direction: column;
-        column-gap: 21px;
+        column-gap: 25px;
     }
 
 
@@ -235,7 +232,7 @@
     }
 
 
-    /*-------------------- blog-section styling ----------------------*/
+    /*-------------------- footer-section styling ----------------------*/
 
     /* .common-footer{
         text-align: center;
@@ -312,4 +309,174 @@
     .utility-bar {
         padding: 10px 12px;
     }
+
+    /*-------------------- navbar styling ----------------------*/
+
+    .common-navbar {
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .nav-links ul {
+        margin-bottom: 30px;
+    }
+
+
+    /*-------------------- hero-section styling ----------------------*/
+
+    #hero-section {
+        height: 90vh;
+    }
+
+    .hero-content {
+        max-width: 90vw;
+
+        margin: 235px auto 0px auto;
+    }
+
+
+
+    .hero-main-img {
+        top: -177px;
+        height: 90vh;
+    }
+
+
+    .hero-heading>h1 {
+        max-width: 100%;
+    }
+
+    /*-------------------- menu-section styling ----------------------*/
+
+    #menu-section {
+        max-width: 95vw;
+        margin: 60px auto;
+    }
+
+
+    /*-------------------- service-section styling ----------------------*/
+
+    .service-list {
+        gap: 30px;
+    }
+
+    .service-heading {
+        width: 100%;
+        margin: 35px 0px 40px 0px;
+    }
+
+    /*-------------------- feature-section styling ----------------------*/
+
+    .feature-content-img {
+        width: 100%;
+    }
+
+    .feature-content {
+        flex-direction: column;
+        max-width: 95vw;
+    }
+
+    .contact-card {
+        width: auto;
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .feature-content-right {
+        padding: 60px 40px;
+    }
+
+    /*-------------------- delivery-section styling ----------------------*/
+
+    .delivery-content {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .delivery-box {
+        padding: 50px 10px;
+    }
+
+    .delivery-img-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        justify-items: center;
+        justify-items: start;
+    }
+
+    /*-------------------- customer-section styling ----------------------*/
+
+    .customer-review-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .customer-review-box {
+        flex-direction: column;
+    }
+
+    /*-------------------- blog-section styling ----------------------*/
+
+
+    .blog-header {
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blog-heading {
+        margin-bottom: 30px;
+    }
+
+    .blog-grid {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        /* grid-gap: 25px; */
+    }
+
+
+    /*-------------------- footer-section styling ----------------------*/
+
+    /* .common-footer{
+        text-align: center;
+    } */
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-company {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        margin: 0px auto;
+        padding: 12px 20px;
+        width: 95%;
+        text-align: center;
+    }
+
+    .f-icons-list {
+        justify-content: center;
+    }
+
+    .f-img-grid {
+        justify-items: center;
+    }
+
+    .footer-img-gallery {
+        text-align: center;
+    }
+
 }

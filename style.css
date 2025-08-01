@@ -179,7 +179,7 @@ body {
 
 #logo-text {
     font-family: "Playfair Display", serif;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
     font-style: italic;
 }
@@ -225,7 +225,7 @@ body {
     height: 60vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 120px auto 0px auto;
 }
 
@@ -287,7 +287,8 @@ body {
 .menu-item-list {
     display: flex;
     justify-content: space-between;
-    column-gap: 24px;
+    column-gap: 30px;
+    flex-wrap: wrap;
 }
 
 .menu-item {
@@ -491,7 +492,6 @@ body {
     max-width: var(--common-max-width);
     margin: 55px auto;
     padding: 30px 0px;
-    background-color: orange;
 }
 
 .customer-heading {
