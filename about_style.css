@@ -2,6 +2,10 @@
     background-color: var(--primary-bg-color)
 } */
 
+:root{
+    font-size: 16px;
+}
+
 #about-header {
     background-color: var(--primary-bg-color);
     /* height: 150px; */
@@ -19,6 +23,7 @@
 
 
 /* video section */
+
 .video-section {
     /* background-color: pink; */
     margin: 70px auto;
