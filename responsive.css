@@ -12,11 +12,25 @@
         flex-direction: column;
         row-gap: 10px;
     }
+
+    #logo-text {
+        font-size: 25px;
+    }
 }
 
 @media only screen and (min-width: 371px) and (max-width:580px) {
     .utility-bar {
         padding: 10px 12px;
+    }
+}
+
+@media only screen and (min-width: 371px) and (max-width:580px) {
+    .utility-bar {
+        padding: 10px 12px;
+    }
+
+    #logo-text {
+        font-size: 35px;
     }
 }
 
@@ -55,9 +69,11 @@
 
     .logo {
         margin: 10px 0px;
+        justify-content: center;
     }
 
-    .logo-text {
+
+    .logo-link {
         column-gap: 6px;
     }
 
@@ -151,6 +167,10 @@
         margin: 30px 0px 50px 0px;
         text-align: center;
 
+    }
+
+    .service-list {
+        gap: 30px;
     }
 
     .service-img>img {
@@ -300,8 +320,8 @@
         grid-template-rows: 1fr;
         justify-items: center;
     }
-
 }
+
 
 /* Tablet and small laptops devices responsiveness */
 
@@ -387,7 +407,7 @@
     }
 
     .feature-content-right {
-        padding: 60px 40px;
+        padding: 60px 90px;
     }
 
     /*-------------------- delivery-section styling ----------------------*/
@@ -403,9 +423,26 @@
 
     .delivery-img-grid {
         grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
         grid-gap: 20px;
         justify-items: center;
         justify-items: start;
+    }
+
+    .delivery-img-1 {
+        grid-row: 1 / 1;
+        width: 95%;
+    }
+
+    .delivery-img-2 {
+        width: 100%;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .delivery-img-3 {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
     }
 
     /*-------------------- customer-section styling ----------------------*/
@@ -460,9 +497,9 @@
     }
 
     .footer-links {
-        flex-direction: column;
+        flex-direction: row;
         margin: 0px auto;
-        padding: 12px 20px;
+        padding: 30px 20px;
         width: 95%;
         text-align: center;
     }
@@ -473,10 +510,14 @@
 
     .f-img-grid {
         justify-items: center;
+        width: 70%;
     }
 
     .footer-img-gallery {
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 }
