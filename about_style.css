@@ -1,0 +1,122 @@
+/* * {
+    background-color: var(--primary-bg-color)
+} */
+
+#about-header {
+    background-color: var(--primary-bg-color);
+    /* height: 150px; */
+}
+
+#about-hero-section {
+    margin: 0;
+    padding: 60px 0px;
+}
+
+#about-feature-content {
+    background-color: var(--primary-bg-color);
+
+}
+
+
+/* video section */
+.video-section {
+    /* background-color: pink; */
+    margin: 70px auto;
+    padding: 40px 0;
+}
+
+#company-video {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-bg-color);
+}
+
+.video-features {
+    max-width: var(--common-max-width);
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.v-feature-box {
+    width: 350px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    border: 1px solid var(--para-text-color);
+}
+
+.video-box-heading {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.video-box-para {
+    color: var(--para-text-color);
+}
+
+#company-video {
+    object-fit: cover;
+}
+
+/* ------------------company-info-section------------------ */
+
+.company-info-section {
+    max-width: var(--common-max-width);
+    margin: 75px auto;
+}
+
+.c-info-content {
+    display: flex;
+}
+
+.c-info-head {
+    padding: 6px 30px;
+}
+
+.c-info-left {
+    padding: 10px 20px;
+    margin: 25px auto;
+}
+
+.c-info-data {
+    width: 100%;
+    height: auto;
+    justify-items: center;
+    padding: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.info-box {
+    width: 290px;
+    height: 170px;
+    border: 1px solid var(--tertiary-bg-color);
+    background-color: var(--tertiary-text-color);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-box-head {
+    margin-bottom: 15px;
+}
+
+.info-box-meaning {
+    font-size: 18px;
+}
+
+.c-info-heading {
+    margin-bottom: 20px;
+}
+
+.c-info-para {
+    margin-bottom: 60px;
+}

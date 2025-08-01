@@ -315,7 +315,7 @@ body {
 
 /* -------------feature section------------- */
 
-#feature-section {
+.common-feature-section {
     background-color: var(--primary-bg-color);
     margin: 20px auto;
     padding: 120px 0px;
