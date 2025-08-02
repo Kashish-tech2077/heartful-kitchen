@@ -1,0 +1,124 @@
+/* ------------------ Mobile responsiveness ------------------- */
+
+@media only screen and (max-width:580px) {
+
+    :root {
+        font-size: 15px;
+    }
+
+    .contact-section {
+        padding: 50px 0px;
+    }
+
+    .contact-content {
+        max-width: 95vw;
+    }
+
+    .contact-header {
+        max-width: 95vw;
+    }
+
+    #contact-heading {
+        font-size: 4rem;
+    }
+
+    .contact-para {
+        max-width: 95%;
+    }
+
+    #contact-form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #contact-form .message-text {
+        padding: 20px 18px;
+        height: 160px;
+        font-size: 1rem;
+        line-height: 1.25;
+    }
+
+    .name-input {
+        grid-column: 1/2;
+    }
+
+    .email-input {
+        grid-column: 1/2;
+    }
+
+    .buisness-info {
+        max-width: 95vw;
+        justify-content: center;
+    }
+
+    .buisness-location {
+        width: 90%;
+    }
+
+
+
+}
+
+/* ------------------ Tablets and Laptops responsiveness ------------------- */
+
+@media only screen and (min-width: 581px) and (max-width:1300px) {
+
+
+    :root {
+        font-size: 16px;
+    }
+
+
+    .contact-header {
+        max-width: 80vw;
+    }
+
+    #contact-heading {
+        font-size: 4.5rem;
+    }
+
+    .contact-para {
+        max-width: 80%;
+    }
+
+    #contact-form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .name-input {
+        grid-column: 1/2;
+    }
+
+    .email-input {
+        grid-column: 1/2;
+    }
+
+    .buisness-info {
+        max-width: 90vw;
+    }
+
+
+    .buisness-location {
+        width: 70%;
+    }
+
+
+
+}
+
+/*------------------- Big Screen and 4K TV devices responsiveness --------------------------*/
+
+@media only screen and (min-width: 2000px) {
+
+    :root {
+        font-size: 18px;
+    }
+
+    .contact-content {
+        max-width: 70vw;
+    }
+
+    .buisness-info {
+        max-width: 60vw;
+    }
+
+}

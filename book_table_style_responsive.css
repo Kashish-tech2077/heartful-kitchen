@@ -24,8 +24,12 @@
     }
 
     .common-user-form {
-        max-width: 99vw;
+        max-width: 92vw;
         padding: 30px 10px;
+    }
+
+    .common-form-input {
+        height: 50px;
     }
 
     .common-form {
