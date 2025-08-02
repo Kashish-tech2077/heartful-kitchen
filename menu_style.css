@@ -132,5 +132,5 @@
     border-radius: 12px;
     padding: 18px 25px;
     border: none;
-    box-shadow: 0px 2px 25px 0px #0000003d;
+    box-shadow: 0px 2px 25px 0px var(--box-shadow);
 }

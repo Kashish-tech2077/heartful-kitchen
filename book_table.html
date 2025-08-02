@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your Table- Heartful Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="book_table_style.css">
+    <link rel="stylesheet" href="book_table_style_responsive.css">
+</head>
+
+<body>
+
+    <!-- Code starts here -->
+
+    <header class="common-header" id="book-table-header">
+        <div class="utility-bar">
+            <div class="utility-contacts">
+                <span> <i class="fa-solid fa-phone" style="color: #ffffff;"></i> (414) 857 - 0107</span>
+                <span> <i class="fa-regular fa-envelope" style="color: #ffffff;"></i> heartful@kitchen.com</span>
+            </div>
+            <div class="utility-social">
+
+                <a href="https://www.twitter.com" target="_blank"> <i class="fa-brands fa-twitter"
+                        style="color: #ffffff;"></i></a>
+
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"
+                        style="color: #ffffff;"></i></a>
+
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"
+                        style="color: #ffffff;"></i></a>
+
+                <a href="https://www.github.com" target="_blank"><i class="fa-brands fa-github"
+                        style="color: #ffffff;"></i></a>
+
+            </div>
+        </div>
+        <nav class="common-navbar">
+            <div class="logo">
+                <a href="#" class="logo-link my-flex">
+                    <img src="assets/Images/Website logo/website-logo.png" alt="Heartful Kitchen Logo"
+                        class="website-logo">
+                    <span id="logo-text">Heartful Kitchen</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#" target="_blank">Blogs</a></li>
+                    <li><a href="#" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-btn">
+                <a class="book-table-btn" href="#">Book A Table</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="table-book-section">
+            <div class="table-book-content">
+                <div class="table-head">
+                    <h1 class="table-heading common-heading">
+                        Book A Table
+                    </h1>
+                    <p class="table-para secondary-para">
+                        Ready for a memorable dining experience? Secure your table in advance to guarantee your spot.
+                        Whether it's an intimate dinner for two or a gathering of friends, we look forward to welcoming
+                        you to Hearthside Kitchen.
+                    </p>
+                </div>
+                <div class="common-user-form">
+                    <form action="backend.php" method="post" class="common-form">
+
+                        <label class="common-form-label" for="book-date"><span class="label-text">Date</span>
+                            <input class="common-form-input" type="date" name="booking-date" id="book-date" required>
+                        </label>
+
+                        <label class="common-form-label" for="book-time"><span class="label-text">Time</span>
+                            <input class="common-form-input" type="time" name="booking-time" id="book-time" required>
+                        </label>
+
+                        <label class="common-form-label" for="user-name"><span class="label-text">Name</span>
+                            <input class="common-form-input" type="text" name="name" id="user-name"
+                                placeholder="Enter your name" required>
+                        </label>
+
+                        <label class="common-form-label" for="user-mobile"><span class="label-text">Phone</span>
+                            <input class="common-form-input" type="tel" name="telephone" id="user-mobile"
+                                placeholder="Enter your phone" required>
+                        </label>
+
+                        <label class="common-form-label select-label" for="total-person"><span class="label-text">Total
+                                Person</span>
+                            <select value="total-person" id="total-person" class="common-form-input person-select-bar">
+                                <option value="1">1 Person</option>
+                                <option value="2">2 Persons</option>
+                                <option value="3">3 Persons</option>
+                                <option value="4">4 Persons</option>
+                                <option value="5">5 Persons</option>
+                                <option value="5+">5+ Persons</option>
+                            </select>
+                        </label>
+
+                        <label class="form-btn-label" for="common-form-btn">
+                            <input type="submit" value="Book A Table" class="common-form-btn common-btn">
+                        </label>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <h1 class="map-heading common-heading">Find Us!</h1>
+            <iframe id="map-iframe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d742.515891986582!2d12.491943366856942!3d41.89148997004429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b7277f0c9d%3A0x2ced59fc9e7b5335!2sLa%20Biga%20Wine%20Food!5e0!3m2!1sen!2sin!4v1754142219113!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+
+    <footer class="common-footer">
+        <div class="footer-content">
+            <div class="footer-company">
+
+                <div class="logo footer-logo">
+                    <a href="#" class="logo-link f-logo-text my-flex">
+                        <img src="assets/Images/Website logo/website-logo.png" alt="Heartful Kitchen Logo"
+                            class="website-logo">
+                        <span id="logo-text">Heartful Kitchen</span>
+                    </a>
+                </div>
+                <div class="f-company-text">
+                    <p>In the new era of technology we look a in the future with certainty and pride to for our company
+                        and.</p>
+                </div>
+
+                <div class="f-icons-list">
+                    <a href="https://www.twitter.com" target="_blank"> <i
+                            class="fa-brands fa-twitter f-social-icons fa-1x"></i></a>
+
+                    <a href="https://www.facebook.com" target="_blank"><i
+                            class="fa-brands fa-facebook-f f-social-icons fa-1x"></i></a>
+
+                    <a href="https://www.instagram.com" target="_blank"><i
+                            class="fa-brands fa-instagram f-social-icons fa-1x"></i></a>
+
+                    <a href="https://www.github.com" target="_blank"><i
+                            class="fa-brands fa-github f-social-icons fa-1x"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-links-1">
+                    <p class="f-common-heading">Pages</p>
+                    <ul class="f-link-list f-link-list-1">
+                        <li><a href="#" class="f-links f-links-1">Home</a></li>
+                        <li><a href="#" class="f-links f-links-1">About</a></li>
+                        <li><a href="#" class="f-links f-links-1">Menu</a></li>
+                        <li><a href="#" class="f-links f-links-1">Pricing</a></li>
+                        <li><a href="#" class="f-links f-links-1">Blog</a></li>
+                        <li><a href="#" class="f-links f-links-1">Contact</a></li>
+                        <li><a href="#" class="f-links f-links-1">Delivery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-2">
+                    <p class="f-common-heading">Blog Pages</p>
+                    <ul class="f-link-list f-link-list-2">
+                        <li><a href="#" class="f-links f-links-2">Start Here</a></li>
+                        <li><a href="#" class="f-links f-links-2">Styleguide</a></li>
+                        <li><a href="#" class="f-links f-links-2">Password Protected</a></li>
+                        <li><a href="#" class="f-links f-links-2">Legal</a></li>
+                        <li><a href="#" class="f-links f-links-2">Licenses</a></li>
+                        <li><a href="#" class="f-links f-links-2">Documentation</a></li>
+                        <li><a href="#" class="f-links f-links-2">Extras</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-img-gallery">
+                <p class="f-common-heading">Follow Us On Social Media</p>
+                <div class="f-img-grid">
+                    <img src="assets/Images/Home-page/footer-section-images/footer-section-img-1.png" alt="footer-img-1"
+                        class="footer-img">
+
+                    <img src="assets/Images/Home-page/footer-section-images/footer-section-img-2.png" alt="footer-img-2"
+                        class="footer-img">
+
+                    <img src="assets/Images/Home-page/footer-section-images/footer-section-img-3.png" alt="footer-img-3"
+                        class="footer-img">
+
+                    <img src="assets/Images/Home-page/footer-section-images/footer-section-img-4.png" alt="footer-img-4"
+                        class="footer-img">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright-row">
+            &copy; Copyright 2022-2025. All Rights Reserved.
+        </div>
+    </footer>
+
+    <!-- font-awesome link -->
+    <script src="https://kit.fontawesome.com/3dd7962506.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

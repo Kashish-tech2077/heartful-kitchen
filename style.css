@@ -43,6 +43,9 @@ body {
     --para-font: "Poppins", sans-serif;
 
     --common-max-width: 90vw;
+
+    --box-shadow: #0000003f;
+
 }
 
 /* Utility classes */
