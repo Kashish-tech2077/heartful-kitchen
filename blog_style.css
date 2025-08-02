@@ -1,0 +1,87 @@
+/* Styling starts here */
+
+:root {
+
+    --blog-box-bg: #fff;
+    --blog-date-color: #737865;
+    --blog-description-color: #2C2F24;
+
+}
+
+#blog-header {
+    background-color: var(--primary-bg-color);
+}
+
+
+/* Blog section styling */
+
+.blogs-section {
+    background-color: var(--primary-bg-color);
+    padding: 70px 0px;
+    margin: 0px auto;
+}
+
+.blogs-content {
+    max-width: var(--common-max-width);
+    margin: 12px auto;
+}
+
+.blogs-header {
+    max-width: 70vw;
+    text-align: center;
+    margin: 0px auto 70px auto;
+}
+
+#blogs-heading {
+    font-size: 5.5rem;
+    margin-bottom: 24px;
+}
+
+.blogs-para {
+    font-size: 18px;
+    max-width: 70%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.blogs-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px 24px;
+}
+
+.b-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 310px;
+    height: 350px;
+    background-color: var(--blog-box-bg);
+    border-radius: 12px;
+    box-shadow: 4px 4px 25px 2px var(--box-shadow);
+}
+
+.b-box-img {
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+.b-box-data {
+    padding: 25px 20px;
+}
+
+.b-date-para {
+    font-size: 14px;
+    color: var(--blog-date-color);
+    margin-bottom: 12px;
+}
+
+.b-description {
+    font-size: 19px;
+    color: var(--blog-description-color);
+    font-weight: 500;
+}
