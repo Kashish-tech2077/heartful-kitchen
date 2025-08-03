@@ -17,7 +17,7 @@
 
 .blogs-section {
     background-color: var(--primary-bg-color);
-    padding: 70px 0px;
+    padding: 40px 0px;
     margin: 0px auto;
 }
 
@@ -26,14 +26,14 @@
     margin: 12px auto;
 }
 
-.blogs-header {
+/* .blogs-header {
     max-width: 70vw;
     text-align: center;
     margin: 0px auto 70px auto;
 }
 
 #blogs-heading {
-    font-size: 5.5rem;
+    font-size: 5rem;
     margin-bottom: 24px;
 }
 
@@ -42,7 +42,7 @@
     max-width: 70%;
     text-align: center;
     margin: 0px auto;
-}
+} */
 
 .blogs-grid {
     display: flex;

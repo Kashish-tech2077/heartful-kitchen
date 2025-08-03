@@ -10,25 +10,10 @@
     margin: 50px auto 80px auto;
 }
 
-
-.menu-header {
-    max-width: 55vw;
-    margin: 35px auto 90px auto;
-}
-
-.menu-heading {
-    font-size: 5.5rem;
-    margin-bottom: 20px;
-}
-
-.menu-para {
-    font-size: 18px;
-    margin-bottom: 50px;
-}
-
 .menu-filters {
     flex-wrap: wrap;
     gap: 15px;
+    margin-bottom: 90px;
 }
 
 .filter-btn {
@@ -151,8 +136,7 @@
         max-width: 95vw;
     }
 
-    .menu-heading {
-        font-size: 4.5rem;
+    #menu-heading {
         margin-bottom: 20px;
     }
 
@@ -235,6 +219,19 @@
 
     .order-content {
         max-width: 70vw;
+    }
+
+}
+
+/* Responsiveness for common devices */
+@media only screen and (max-width:1300px) {
+
+    .menu-heading {
+        font-size: 4rem;
+    }
+
+    .menu-para {
+        max-width: 95%;
     }
 
 }

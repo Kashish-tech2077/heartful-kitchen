@@ -10,7 +10,7 @@
 
 .contact-section {
     background-color: var(--primary-bg-color);
-    padding: 70px 0px;
+    padding: 40px 0px;
 }
 
 .contact-content {
@@ -18,7 +18,7 @@
     margin: 12px auto;
 }
 
-.contact-header {
+/* .contact-header {
     max-width: 70vw;
     text-align: center;
     margin: 0px auto 70px auto;
@@ -34,7 +34,7 @@
     max-width: 70%;
     text-align: center;
     margin: 0px auto;
-}
+} */
 
 
 /* Contact form styling */

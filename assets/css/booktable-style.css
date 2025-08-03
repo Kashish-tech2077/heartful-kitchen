@@ -17,17 +17,10 @@ body {
     background-color: var(--primary-bg-color);
 }
 
-
-.table-head {
-    max-width: 50vw;
-    margin: 15px auto;
-}
-
-
 .table-book-section {
     background-color: var(--primary-bg-color);
     height: auto;
-    padding: 45px 0px;
+    padding: 40px 0px;
 
 }
 
@@ -36,15 +29,6 @@ body {
     margin: 0px auto;
     padding: 2px 20px;
     text-align: center;
-}
-
-.table-heading {
-    font-size: 5rem;
-    margin-bottom: 24px;
-}
-
-.table-para {
-    font-size: 18px;
 }
 
 .common-user-form {
@@ -189,6 +173,10 @@ body {
         font-size: 4rem;
     }
 
+    .table-para {
+        max-width: 95%;
+    }
+
     .common-user-form {
         max-width: 92vw;
         padding: 30px 10px;
@@ -227,8 +215,8 @@ body {
         font-size: 16px;
     }
 
-    .table-head {
-        max-width: 95vw;
+    .table-para {
+        max-width: 80%;
     }
 
     .table-book-content {
@@ -269,6 +257,17 @@ body {
 
     .common-user-form {
         max-width: 55vw;
+    }
+
+}
+
+
+/* Responsive for common devices */
+
+@media only screen and (max-width:1300px) {
+
+    .table-head {
+        max-width: 95vw;
     }
 
 }
