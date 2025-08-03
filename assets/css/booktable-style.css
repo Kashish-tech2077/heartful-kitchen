@@ -95,10 +95,11 @@ body {
     color: var(--heading-text-color);
 }
 
-#common-form-btn {
+.form-btn-label .common-form-btn {
     width: 100%;
+    font-size: 1.15rem;
     padding: 20px 32px;
-    font-weight: bold;
+    font-weight: 500;
     background-color: var(--primary-btn-bg);
     color: white;
     cursor: pointer;
@@ -108,14 +109,16 @@ body {
 }
 
 /* --- Hover Effect --- */
-.common-form-btn:hover {
+.form-btn-label .common-form-btn:hover {
     background-color: #922b21;
+    filter: brightness(90%);
 }
 
 /* --- Active Effect --- */
-.common-form-btn:active {
+.form-btn-label .common-form-btn:active {
     background-color: #7b241c;
     transform: translateY(2px);
+    filter: brightness(80%);
 }
 
 

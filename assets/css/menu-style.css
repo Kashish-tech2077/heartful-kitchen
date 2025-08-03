@@ -46,6 +46,13 @@
     flex-direction: column;
     border: 1px solid var(--tertiary-bg-color);
     border-radius: 12px;
+    box-shadow: 2px 2px 5px var(--box-shadow);
+    transition: 0.4s ease;
+}
+
+.menu-box:hover {
+    box-shadow: 4px 4px 12px 2px var(--box-shadow);
+    transform: scale(1.015);
 }
 
 .menu-box-data {
