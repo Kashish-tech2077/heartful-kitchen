@@ -49,7 +49,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     gap: 25px;
 }
@@ -57,10 +56,10 @@
 
 .menu-box {
     width: 310px;
-    height: 430px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     border: 1px solid var(--tertiary-bg-color);
     border-radius: 12px;
 }
@@ -72,6 +71,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 15px 20px;
+    gap: 15px 0px;
 }
 
 .dish-price {
@@ -133,4 +133,108 @@
     padding: 18px 25px;
     border: none;
     box-shadow: 0px 2px 25px 0px var(--box-shadow);
+}
+
+
+
+/*------------------- Responsiveness for all devides------------------- */
+
+/* -------------------Mobile devices responsiveness------------------- */
+
+@media only screen and (max-width:580px) {
+
+    :root {
+        font-size: 15px;
+    }
+
+    .menu-hero-section {
+        max-width: 95vw;
+    }
+
+    .menu-heading {
+        font-size: 4.5rem;
+        margin-bottom: 20px;
+    }
+
+    .menu-header {
+        max-width: 90vw;
+    }
+
+    .menu-box {
+        width: 90%;
+        max-width: 310px;
+        height: auto;
+    }
+
+    .menu-list {
+        width: 100%;
+        gap: 25px;
+        padding: 0px 10px;
+    }
+
+    .dish-img {
+        width: 100%;
+    }
+
+    .order-header {
+        max-width: 90vw;
+        padding: 4px 12px;
+        margin-bottom: 60px;
+    }
+
+    .order-content {
+        max-width: 95vw;
+        flex-direction: column;
+    }
+
+    .company-grid {
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-template-rows: repeat(1, 1fr); */
+    }
+
+}
+
+/* ------------------ Tablets and Laptops responsiveness ------------------- */
+
+@media only screen and (min-width: 581px) and (max-width:1300px) {
+
+    .order-header {
+        max-width: 90vw;
+        margin-bottom: 60px;
+    }
+
+    .order-content {
+        max-width: 95vw;
+        flex-direction: column;
+    }
+
+    .company-grid {
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-rows: repeat(2, 1fr); */
+    }
+
+}
+
+/* ------------------Big Screen and 4K TV devices responsiveness------------------ */
+
+
+@media only screen and (min-width: 2000px) {
+
+    .menu-hero-section {
+        max-width: 75vw;
+    }
+
+    .order-header {
+        max-width: 35vw;
+    }
+
+    .menu-list {
+        justify-content: space-around;
+        gap: 25px;
+    }
+
+    .order-content {
+        max-width: 70vw;
+    }
+
 }

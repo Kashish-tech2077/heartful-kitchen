@@ -1,8 +1,4 @@
-/* * {
-    background-color: var(--primary-bg-color)
-} */
-
-:root{
+:root {
     font-size: 16px;
 }
 
@@ -22,7 +18,7 @@
 }
 
 
-/* video section */
+/* ------------------video section------------------ */
 
 .video-section {
     /* background-color: pink; */
@@ -124,4 +120,103 @@
 
 .c-info-para {
     margin-bottom: 60px;
+}
+
+
+
+
+/* Responsive code for all devices */
+
+/* ------------------ Mobile responsiveness ------------------- */
+
+@media only screen and (max-width:580px) {
+
+    :root {
+        font-size: 15px;
+    }
+
+    .c-info-data {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .c-info-img {
+        width: 95%;
+    }
+
+    .company-info-section {
+        max-width: 95vw;
+    }
+
+    .video-features {
+        max-width: 95vw;
+    }
+
+    .info-box {
+        width: 90%;
+        max-width: 290px;
+        height: auto;
+
+        min-height: 170px;
+    }
+
+    .v-feature-box {
+        width: 90%;
+    }
+
+}
+
+
+/* ------------------ Tablets and Laptops responsiveness ------------------- */
+
+@media only screen and (min-width: 581px) and (max-width:1300px) {
+
+    .c-info-data {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .c-info-img {
+        width: 90%;
+    }
+
+    .info-box {
+        width: 240px;
+    }
+
+}
+
+
+/* ------------------Big Screen and 4K TV devices responsiveness------------------ */
+
+@media only screen and (min-width: 2000px) {
+
+    :root {
+        font-size: 18px;
+    }
+
+    .company-info-section {
+        max-width: 70vw;
+    }
+
+    #company-video {
+        object-fit: contain;
+    }
+
+}
+
+/* ------------------Responsiveness for common devices upto 1300px------------------ */
+
+@media (max-width: 1300px) {
+    .c-info-content {
+        flex-direction: column;
+    }
+
+    .c-info-head {
+        padding: 2px 6px;
+    }
+
+    #company-video {
+        object-fit: contain;
+    }
 }

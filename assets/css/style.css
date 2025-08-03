@@ -200,7 +200,7 @@ body {
 
 .hero-main-img {
     content: "";
-    background: url("assets/Images/Home-page/hero-section-images/hero-section-img.jpg");
+    background: url('../Images/Home-page/hero-section-images/hero-section-img.jpg');
     display: inline-block;
     width: 100%;
     height: 100vh;

@@ -1,0 +1,238 @@
+/* Styling Starts Here */
+
+:root {
+    --call-detail-color: #AD343E;
+}
+
+#contact-navbar {
+    background-color: var(--primary-bg-color);
+}
+
+.contact-section {
+    background-color: var(--primary-bg-color);
+    padding: 70px 0px;
+}
+
+.contact-content {
+    max-width: var(--common-max-width);
+    margin: 12px auto;
+}
+
+.contact-header {
+    max-width: 70vw;
+    text-align: center;
+    margin: 0px auto 70px auto;
+}
+
+#contact-heading {
+    font-size: 5.5rem;
+    margin-bottom: 24px;
+}
+
+.contact-para {
+    font-size: 18px;
+    max-width: 70%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+/* Contact form styling */
+
+#contact-form {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.subject-label {
+    grid-column: 1/3;
+}
+
+.message-label {
+    grid-row: 3 / 5;
+    grid-column: 1 / 3;
+
+}
+
+#contact-form .message-text {
+    padding: 25px 25px;
+    height: 160px;
+    font-size: 1.25rem;
+    line-height: 1.45;
+    border-radius: 16px;
+}
+
+.buisness-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 80px auto 25px auto;
+    max-width: 70vw;
+    gap: 25px;
+    padding: 5px 25px;
+}
+
+.buisness-location {
+    width: 40%;
+}
+
+.buisness-info-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.buisness-info-detail {
+    font-size: 18px;
+}
+
+.buisness-call-detail {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--call-detail-color);
+}
+
+
+
+/*------------------- Responsiveness for all devides------------------- */
+
+/* ------------------ Mobile responsiveness ------------------- */
+
+@media only screen and (max-width:580px) {
+
+    :root {
+        font-size: 15px;
+    }
+
+    .contact-section {
+        padding: 50px 0px;
+    }
+
+    .contact-content {
+        max-width: 95vw;
+    }
+
+    .contact-header {
+        max-width: 95vw;
+    }
+
+    #contact-heading {
+        font-size: 4rem;
+    }
+
+    .contact-para {
+        max-width: 95%;
+    }
+
+    #contact-form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #contact-form .message-text {
+        padding: 20px 18px;
+        height: 160px;
+        font-size: 1rem;
+        line-height: 1.25;
+    }
+
+    .name-input {
+        grid-column: 1/2;
+    }
+
+    .email-input {
+        grid-column: 1/2;
+    }
+
+    .buisness-info {
+        max-width: 95vw;
+        justify-content: center;
+    }
+
+    .buisness-location {
+        width: 90%;
+    }
+
+
+
+}
+
+/* ------------------ Tablets and Laptops responsiveness ------------------- */
+
+@media only screen and (min-width: 581px) and (max-width:1300px) {
+
+
+    :root {
+        font-size: 16px;
+    }
+
+
+    .contact-header {
+        max-width: 80vw;
+    }
+
+    #contact-heading {
+        font-size: 4.5rem;
+    }
+
+    .contact-para {
+        max-width: 80%;
+    }
+
+    #contact-form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .name-input {
+        grid-column: 1/2;
+    }
+
+    .email-input {
+        grid-column: 1/2;
+    }
+
+    .buisness-info {
+        max-width: 90vw;
+    }
+
+
+    .buisness-location {
+        width: 70%;
+    }
+
+
+
+}
+
+/*------------------- Big Screen and 4K TV devices responsiveness -------------------*/
+
+@media only screen and (min-width: 2000px) {
+
+    :root {
+        font-size: 18px;
+    }
+
+    .contact-content {
+        max-width: 70vw;
+    }
+
+    .buisness-info {
+        max-width: 60vw;
+    }
+
+}
+
+/* -------------------Responsive code for common devices------------------- */
+
+@media only screen and (max-width:1300px) {
+
+    #contact-form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .message-label {
+        grid-row: 4 / 6;
+        grid-column: 1 / 3;
+    }
+
+}

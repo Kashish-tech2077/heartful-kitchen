@@ -13,7 +13,7 @@
 }
 
 
-/* Blog section styling */
+/* ------------------Blog section styling------------------ */
 
 .blogs-section {
     background-color: var(--primary-bg-color);
@@ -84,4 +84,87 @@
     font-size: 19px;
     color: var(--blog-description-color);
     font-weight: 500;
+}
+
+
+
+/* Responsive code for all devices */
+
+/* ------------------ Mobile responsiveness ------------------- */
+
+@media only screen and (max-width:580px) {
+
+    :root {
+        font-size: 15px;
+    }
+
+    .blogs-section {
+        padding: 50px 0px;
+    }
+
+    .blogs-content {
+        max-width: 95vw;
+    }
+
+    .blogs-header {
+        max-width: 95vw;
+    }
+
+    #blogs-heading {
+        font-size: 4rem;
+    }
+
+    .blogs-para {
+        max-width: 95%;
+    }
+
+    .b-box {
+        width: 90%;
+        max-width: 290px;
+    }
+
+    .b-box-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+}
+
+/* ------------------ Tablets and Laptops responsiveness ------------------- */
+
+@media only screen and (min-width: 581px) and (max-width:1300px) {
+
+
+    :root {
+        font-size: 16px;
+    }
+
+
+    .blogs-header {
+        max-width: 80vw;
+    }
+
+    #blogs-heading {
+        font-size: 4.5rem;
+    }
+
+    .blogs-para {
+        max-width: 80%;
+    }
+
+}
+
+/*------------------- Big Screen and 4K TV devices responsiveness --------------------------*/
+
+@media only screen and (min-width: 2000px) {
+
+    :root {
+        font-size: 18px;
+    }
+
+    .blogs-content {
+        max-width: 70vw;
+    }
+
 }

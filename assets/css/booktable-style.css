@@ -111,7 +111,7 @@ body {
     color: var(--heading-text-color);
 }
 
-.common-form-btn {
+#common-form-btn {
     width: 100%;
     padding: 20px 32px;
     font-weight: bold;
@@ -126,14 +126,11 @@ body {
 /* --- Hover Effect --- */
 .common-form-btn:hover {
     background-color: #922b21;
-    /* A slightly darker red */
 }
 
 /* --- Active Effect --- */
 .common-form-btn:active {
     background-color: #7b241c;
-    /* An even darker red */
-    /* This makes the button look "pressed" */
     transform: translateY(2px);
 }
 
@@ -157,7 +154,121 @@ body {
     box-shadow: 4px 4px 32px 2px var(--box-shadow);
     aspect-ratio: 16 / 9;
     display: block;
-    /* Or 4 / 3, etc. */
-    height: auto;
+
     /* Height is now handled automatically */
+    height: auto;
+}
+
+
+
+
+/* Responsive code for all devices */
+
+/* ------------------ Mobile responsiveness ------------------- */
+
+@media only screen and (max-width:580px) {
+
+    :root {
+        font-size: 15px;
+    }
+
+    .table-head {
+        max-width: 95vw;
+    }
+
+    .table-book-section {
+        padding: 35px 0px;
+    }
+
+    .table-book-content {
+        max-width: 95vw;
+        padding: 2px 5px;
+    }
+
+    .table-heading {
+        font-size: 4rem;
+    }
+
+    .common-user-form {
+        max-width: 92vw;
+        padding: 30px 10px;
+    }
+
+    .common-form-input {
+        height: 50px;
+    }
+
+    .common-form {
+        grid-template-columns: 1fr;
+    }
+
+    .map-section {
+        width: 95vw;
+        margin: 50px auto;
+    }
+
+    .common-form-label {
+        grid-column: 1/3;
+    }
+
+    .map-heading {
+        font-size: 4.5rem;
+    }
+
+
+}
+
+/* ------------------ Tablets and Laptops responsiveness ------------------- */
+
+@media only screen and (min-width: 581px) and (max-width:1300px) {
+
+
+    :root {
+        font-size: 16px;
+    }
+
+    .table-head {
+        max-width: 95vw;
+    }
+
+    .table-book-content {
+        max-width: 95vw;
+    }
+
+    .common-user-form {
+        max-width: 90vw;
+    }
+
+    .common-form {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 22px 6px;
+    }
+
+    .map-section {
+        width: 95vw;
+        margin: 50px auto;
+    }
+
+}
+
+/*------------------- Big Screen and 4K TV devices responsiveness --------------------------*/
+
+@media only screen and (min-width: 2000px) {
+
+    :root {
+        font-size: 18px;
+    }
+
+    .table-book-content {
+        max-width: 75vw;
+    }
+
+    .map-section {
+        max-width: 75vw;
+    }
+
+    .common-user-form {
+        max-width: 55vw;
+    }
+
 }
