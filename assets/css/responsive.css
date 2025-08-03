@@ -2,6 +2,19 @@
 
 /* For very small mobile devices */
 
+@media only screen and (max-width: 340px) {
+
+    .nav-links ul {
+        width: 95vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+}
+
+
+
 @media only screen and (max-width: 370px) {
     .utility-bar {
         padding: 10px 0px;

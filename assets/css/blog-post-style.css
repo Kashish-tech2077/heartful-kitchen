@@ -1,0 +1,214 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Common blog styles for all blog articles */
+
+
+body {
+    background-color: var(--primary-bg-color);
+}
+
+:root {
+    font-size: 16px;
+
+    /* Variables */
+    --blog-heading-color: #2C2F24;
+    --secondary-heading-color: #2C2F24;
+    --para-text-color: #414536;
+    --read-article-bg: #fff;
+
+    --primary-font: "DM Sans", sans-serif;
+
+    --primary-max-width: 70vw;
+}
+
+.blog-container {
+    max-width: var(--primary-max-width);
+    height: auto;
+    margin: 0px auto;
+    padding: 65px 0px;
+}
+
+.blog-heading {
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: 2.80rem;
+    color: var(--blog-heading-color);
+    font-weight: 600;
+}
+
+.blog-secondary-heading {
+    color: var(--secondary-heading-color);
+    margin-bottom: 20px;
+}
+
+.sub-blog-content {
+    margin: 48px 0px;
+}
+
+.common-blog-img {
+    width: 100%;
+    margin: 30px 0px;
+    border-radius: 12px;
+}
+
+.blog-content {
+    max-width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0px;
+    font-size: 17px;
+    font-family: var(--primary-font);
+}
+
+.blog-content-list {
+    color: var(--para-text-color);
+    line-height: 28px;
+    padding: 2px 16px;
+}
+
+.blog-content-list li {
+    list-style-type: decimal;
+    margin-bottom: 20px;
+}
+
+.blog-common-para {
+    color: var(--para-text-color);
+    margin-bottom: 25px;
+}
+
+.blog-list-title {
+    font-weight: bold;
+    margin-right: 6px;
+}
+
+.blog-secondary-section {
+    margin: 16px 0px;
+}
+
+
+
+/* Related articles section styling */
+
+.related-articles-section {
+    background-color: var(--read-article-bg);
+}
+
+.related-article-content {
+    margin: 50px auto;
+    max-width: var(--common-max-width);
+    padding: 75px 0px;
+
+}
+
+.read-article-heading {
+    font-size: 4rem;
+}
+
+.blog-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.blog-img {
+    border-radius: 12px 12px 0px 0px;
+}
+
+.article-box {
+    width: 310px;
+    height: auto;
+}
+
+
+
+/*------------------- Responsiveness for all devides------------------- */
+
+/* ------------------ Mobile responsiveness ------------------- */
+
+@media only screen and (max-width:580px) {
+
+
+    .blog-container {
+        max-width: 95vw;
+        padding: 50px 0px;
+    }
+
+    .blog-heading {
+        font-size: 1.75rem;
+        line-height: 40px;
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .blog-content {
+        padding: 10px 12px;
+    }
+
+    .read-article-heading {
+        font-size: 2.55rem;
+    }
+
+    .related-article-content {
+        margin: 25px auto;
+    }
+
+    .read-article-para {
+        max-width: 100%;
+    }
+
+    .article-box {
+        width: auto;
+    }
+}
+
+
+/* ------------------ Tablets and Laptops responsiveness ------------------- */
+
+@media only screen and (min-width: 581px) and (max-width:1300px) {
+
+    .blog-container {
+        max-width: 80vw;
+    }
+
+    .blog-heading {
+        font-size: 2.50rem;
+    }
+
+    .read-article-heading {
+        font-size: 3.5rem;
+    }
+
+
+}
+
+/*------------------- Big Screen and 4K TV devices responsiveness -------------------*/
+
+@media only screen and (min-width: 2000px) {
+
+    :root {
+        font-size: 19px;
+    }
+
+    .blog-common-para {
+        margin-bottom: 25px;
+        line-height: 35px;
+    }
+
+}
+
+
+/* -------------------Responsive code for common devices------------------- */
+
+@media only screen and (max-width:1300px) {
+
+    .blog-common-para {
+        margin-bottom: 25px;
+        line-height: 28px;
+    }
+
+    .article-header {
+        max-width: 90%;
+    }
+
+}
