@@ -26,24 +26,6 @@
     margin: 12px auto;
 }
 
-/* .blogs-header {
-    max-width: 70vw;
-    text-align: center;
-    margin: 0px auto 70px auto;
-}
-
-#blogs-heading {
-    font-size: 5rem;
-    margin-bottom: 24px;
-}
-
-.blogs-para {
-    font-size: 18px;
-    max-width: 70%;
-    text-align: center;
-    margin: 0px auto;
-} */
-
 .blogs-grid {
     display: flex;
     flex-wrap: wrap;
