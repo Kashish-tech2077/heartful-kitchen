@@ -104,6 +104,10 @@ body {
     font-size: 4rem;
 }
 
+.blog-link-box{
+    text-decoration: none;
+}
+
 .blog-list {
     display: flex;
     justify-content: center;
