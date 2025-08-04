@@ -10,7 +10,7 @@ The project will evolve over time, with plans to integrate more advanced technol
 
 ## 🚀 Live Demo
 
-[**View the live project here**](https://kashish-tech2077.github.io/hearthside-kitchen/)
+[**View the live project here**](https://kashish-tech2077.github.io/heartful-kitchen/)
 
 ---
 
