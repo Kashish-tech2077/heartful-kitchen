@@ -13,12 +13,17 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json # optional, ignore if using exact versions
 
 # =====================
 # Build & Production Files
 # =====================
 dist/
 build/
+out/
+.next/
+.vercel/
+.netlify/
 
 # =====================
 # Environment Files
@@ -30,30 +35,41 @@ build/
 # =====================
 # Logs
 # =====================
-logs
+logs/
 *.log
 *.out
 *.err
 
 # =====================
+# Misc
+# =====================
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.tsbuildinfo
 
 # =====================
-# Misc
-# =====================
-*.tsbuildinfo
 # Cache & Temp Files
-.idea/
-*.suo
 # =====================
 .cache/
 .vscode/
+.idea/
+.suo
 .temp/
 .tmp/
 coverage/
+.mypy_cache/
+__pycache__/
+*.py[cod]
 
 # =====================
 # IDE & Editor Settings
+# =====================
+*.code-workspace
+
+# =====================
+# Replit Configuration Files
+# =====================
+.replit
+replit.nix
