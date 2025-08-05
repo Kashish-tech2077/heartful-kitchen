@@ -1,0 +1,16 @@
+modules = ["web"]
+
+[nix]
+channel = "stable-25_05"
+
+[workflows]
+runButton = "Serve Website"
+
+[[workflows.workflow]]
+name = "Serve Website"
+author = 18075798
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 -m http.server 5000"
