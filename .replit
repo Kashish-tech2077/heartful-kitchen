@@ -13,8 +13,4 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "echo \"Opening your website...\""
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "echo \"Your website is now accessible via the webview\""
+args = "python -m http.server 5000"
