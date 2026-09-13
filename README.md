@@ -2,6 +2,8 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+![Breezely Preview](https://github.com/user-attachments/assets/9b168648-b25b-466d-a05e-868909e08117)    
+
 A responsive and modern website for "Hearthside Kitchen," a fictional restaurant. This project was created to showcase front-end development skills, with a focus on clean code, responsive design, and a warm, inviting user experience.
 
 The project will evolve over time, with plans to integrate more advanced technologies for interactivity and full-stack features.
